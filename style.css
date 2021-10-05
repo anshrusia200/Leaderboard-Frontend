@@ -20,7 +20,9 @@ body {
 
 #pointsTable {
   /* width: 20%; */
-  margin: 8rem 0 4rem 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Media Queries */
@@ -29,9 +31,6 @@ body {
     width: 20%;
   }
 
-  #pointsTable {
-    margin: 8rem 70% 4rem 20%;
-  }
 }
 
 
